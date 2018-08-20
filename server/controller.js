@@ -83,7 +83,7 @@ module.exports = {
             })
         }
         else {
-            res.status(500).send('Incorrect request format! Acceptable parameters are "userEmail" or "userFirstStart".')
+            res.status(500).send('Incorrect request format! Acceptable queries are "?userEmail=" or "?userFirstStart=".')
         }
     },
 
