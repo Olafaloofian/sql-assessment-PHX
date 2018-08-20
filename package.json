@@ -1,0 +1,32 @@
+{
+  "name": "sql-assessment-phx",
+  "version": "1.0.0",
+  "description": "Mentor assessment #2",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olafaloofian/sql-assessment-PHX.git"
+  },
+  "keywords": [
+    "SQL",
+    "database",
+    "server",
+    "assessment"
+  ],
+  "author": "Michael Kerr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olafaloofian/sql-assessment-PHX/issues"
+  },
+  "homepage": "https://github.com/Olafaloofian/sql-assessment-PHX#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "massive": "^5.2.0"
+  }
+}
